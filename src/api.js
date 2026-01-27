@@ -1,7 +1,8 @@
 import axios from "axios";
 
 const API = axios.create({
-    baseURL: "https://vibechat-backend-vf0o.onrender.com",
+    baseURL: `${import.meta.env.VITE_BACKEND_URL}/api`;
+
 });
 
 export default API;
