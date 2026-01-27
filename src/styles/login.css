@@ -1,0 +1,81 @@
+/* 🌙 Dark Login Theme */
+
+.login-container {
+    height: 100vh;
+    background: #0f172a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Segoe UI", sans-serif;
+}
+
+.login-card {
+    background: #1e293b;
+    padding: 40px;
+    width: 360px;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+}
+
+.login-title {
+    color: #e5e7eb;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.login-subtitle {
+    color: #94a3b8;
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 25px;
+}
+
+.login-card input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    background: #334155;
+    color: #e5e7eb;
+    font-size: 14px;
+}
+
+.login-card input::placeholder {
+    color: #94a3b8;
+}
+
+.login-card button {
+    width: 100%;
+    padding: 12px;
+    background: #7c3aed;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.2s ease;
+}
+
+.login-card button:hover {
+    background: #6d28d9;
+}
+
+.login-footer {
+    margin-top: 20px;
+    text-align: center;
+    color: #94a3b8;
+    font-size: 14px;
+}
+
+.login-footer span {
+    color: #7c3aed;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.login-footer span:hover {
+    text-decoration: underline;
+}
